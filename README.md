@@ -16,7 +16,7 @@
 | **全支付** | Play Store | 🟢 正常 | 完美 | 通知依賴 Play 服務 |
 | **街口支付** | Play Store | 🟡 部分 | SIM 卡驗證失敗，改用交易密碼驗證 | 完全依賴 Play 服務 |
 | **一卡通** | Play Store | 🟡 部分 | 需要 Play Integrity | 完全依賴 Play 服務 |
-| **悠遊付** | Play Store | 🟢 正常 | 完美 | 「嗶乘車」似乎能用、地圖依賴 Play 服務 |
+| **悠遊付** | Play Store | 🟢 正常 | 完美 | **「嗶乘車」能用**、地圖依賴 Play 服務 |
 | **中國信託** | Play Store | 🔴 閃退 | 無解 | 顯示連線有風險 |
 | **台灣行動支付** | Play Store | 🔴 閃退 | 閃退、SIM 卡驗證失敗，無解 |  |
 | **Line Pay** | Play Store | 🟢 正常 | 完美 | 完美運作 |
