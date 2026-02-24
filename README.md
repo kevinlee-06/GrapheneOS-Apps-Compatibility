@@ -36,4 +36,4 @@
 | **Google 文件** | Play Store | 🟡 部分 | Play 服務 | 完全依賴 Play 服務 |
 | **Google 訊息** | Play Store | 🟡 部分 | 無須調整 | RCS 無法使用 |
 | **Google 錢包** | Play Store | 🔴 半殘 | 不支援感應支付 | 會員卡能用 |
-||||<img src="./GPay.png" style="max-width: 120px"/>||
+||||<img src="./GPay.png" style="width: 20%"/>||
