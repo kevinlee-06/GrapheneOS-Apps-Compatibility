@@ -22,7 +22,7 @@
 | **Line Pay** | Play Store | 🟢 正常 | 完美 | 完美運作 |
 | **Line** | Play Store | 🟢 正常 | 完美 | 通知依賴 Play 服務 |
 | **Line Bank** | Play Store | 🟢 正常 | 完美 | 完美運作 |
-| **Spotify** | Play Store | 🟢 正常 | 可能需要 Play Integrity | 無損音質正常運作、可能不須 Google 服務 |
+| **Spotify** | Play Store | 🟢 正常 |  | 無損音質正常運作 |
 | **Netflix** | Play Store | 🟢 正常 | 需要 Play Integrity | Widevine: L1（完美）、依賴 Play 服務 |
 | **麥當勞** | Play Store | 🔴 閃退 | 無解 | 垃圾 App |
 | **Proton Mail** | Apk | 🟢 正常 | 完美 | 完美運作 |
