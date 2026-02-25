@@ -10,54 +10,70 @@
 | --- | --- | --- | --- | --- |
 | **Play 服務** | GrapheneOS | 🟡 部分 | 需要 |  |
 | **Play 商店** | GrapheneOS | 🟡 部分 | 需要 | 須手動點擊授權安裝 |
-| **CUBE** | Play Store | 🔴 閃退 |  | 無解，顯示設備遭破解 |
-| **將來銀行** | Play Store | 🟢 正常 | | |
-| **國泰證券** | Play Store | 🟢 正常 | 通知 | |
-| **全支付** | Play Store | 🟢 正常 | 通知 | |
 | **街口支付** | Play Store | 🟡 部分 | 需要 | SIM 卡驗證失敗，改用交易密碼驗證 |
 | **一卡通** | Play Store | 🟡 部分 | 需要 |  |
+| **Google 文件** | Play Store | 🟡 部分 | 需要 | |
+| **Google 訊息** | Play Store | 🟡 部分 | \- | RCS 無法使用 |
+| **CUBE** | Play Store | 🔴 閃退 | 需要 | 顯示設備遭破解，必須禁用「開發人員選項」 |
+| **中國信託** | Play Store | 🔴 閃退 | 需要 | 無解，顯示連線有風險 |
+| **台灣行動支付** | Play Store | 🔴 閃退 | \- | 無解，閃退、SIM 卡驗證失敗 |
+| **麥當勞** | Play Store | 🔴 閃退 | 需要 | |
+| **Google 錢包** | Play Store | 🔴 半殘 | 需要 | |
+| **將來銀行** | Play Store | 🟢 正常 | \- | |
+| **國泰證券** | Play Store | 🟢 正常 | 通知 | |
+| **全支付** | Play Store | 🟢 正常 | 通知 | |
 | **悠遊付** | Play Store | 🟢 正常 | 進階功能 | NFC「嗶乘車」能用 |
-| **中國信託** | Play Store | 🔴 閃退 | | 無解，顯示連線有風險 |
-| **台灣行動支付** | Play Store | 🔴 閃退 | | 無解，閃退、SIM 卡驗證失敗 |
-| **Line Pay** | Play Store | 🟢 正常 |  | |
 | **Line** | Play Store | 🟢 正常 | 通知 | |
-| **Line Bank** | Play Store | 🟢 正常 | | |
-| **Spotify** | Play Store | 🟢 正常 | | 無損音質正常運作 |
-| **Netflix** | Play Store | 🟢 正常 | 需要\* | Widevine: L1 |
-| **麥當勞** | Play Store | 🔴 閃退 | | |
-| **Proton Mail** | Apk | 🟢 正常 | | |
-| **Proton Calendar** | Apk | 🟢 正常 | | |
-| **Aurora Store** | Droid-ify (Apk) | 🟢 正常 | | |
-| **Brave Browser** | Droid-ify (Apk) | 🟢 正常 | | |
-| **Fossify\*** | Droid-ify (Apk) | 🟢 正常 | | |
-| **Google 相機** | Play Store | 🟢 正常 | | |
+| **Line Pay** | Play Store | 🟢 正常 | \- | |
+| **Line Bank** | Play Store | 🟢 正常 | \- | |
+| **Spotify** | Play Store | 🟢 正常 | \- | 無損音質正常運作 |
+| **Netflix** | Play Store | 🟢 正常 | \* | Widevine: L1 |
+| **Proton Mail** | Apk | 🟢 正常 | \- | |
+| **Proton Calendar** | Apk | 🟢 正常 | \- | |
+| **Aurora Store** | Droid-ify (Apk) | 🟢 正常 | \- | |
+| **Brave Browser** | Droid-ify (Apk) | 🟢 正常 | \- | |
+| **Fossify\*** | Droid-ify (Apk) | 🟢 正常 | \- | |
+| **Google 相機** | Play Store | 🟢 正常 | \- | |
 | **Gboard** | Play Store | 🟢 正常 | 進階功能 | |
 | **Google 翻譯** | Play Store | 🟢 正常 | 進階功能 | |
-| **Google 文件** | Play Store | 🟡 部分 | 需要 | |
-| **Google 訊息** | Play Store | 🟡 部分 |  | RCS 無法使用 |
-| **Google 錢包** | Play Store | 🔴 半殘 | 需要 | |
-
-### 一卡通 MONEY
-- 無 Play Integrity 會提示可能存在風險，不影響使用
-
-### 悠游付
-- 無 Play 服務時無法使用地圖，其餘功能正常
 
 ### 國泰世華 (CUBE)
-- App 無法使用
-- 建議用[網頁版](https://www.cathaybk.com.tw/mybank)
+- 狀態：🔴 閃退
+- 錯誤代碼：`[AX05]`
+- V-Shield：`[ERROR] code:-207, msg:Device is risky [Rooted/Hooked/Simulator/Emulator/Debugger]`
+- 調用系統級 GMS 與 Integrity API 異常
+> 嘗試重複開關 CUBE App 與開發人員選項，偶爾有機會跳過 `[AX05]` 警告
+
+### 中國信託
+- 狀態：🔴 閃退
+- SELinux 權限遭拒
+- 調用系統級 GMS 與 Integrity API 異常
+- idgate SDK 報錯
+- App 自主退出（顯示連線有風險）
+
+### 將來銀行 (Next Bank)：
+- 狀態：🟢 正常
+- SELinux 權限遭拒
+- 調用系統級 GMS 與 Integrity API 異常
+- Log 充滿報錯，但仍放行（App 沒顯示任何警告）
+
+### 一卡通 MONEY
+- 狀態：🟡 部分
+- 說明：需要 Play 服務，Play Integrity Basic 不強制
+
+### 悠游付
+- 狀態：🟢 正常
+- 說明：功能正常，啟用 Play 服務才能存店家清單
 
 ### 街口支付
-- 無法執行電信 MID 門號驗證，可改用交易密碼驗證
+- 狀態：🟡 部分
+- 說明：無法執行電信 MID 門號驗證，可改用交易密碼驗證
 
 ### 台灣行動支付
-- App 無法使用
-- 無法執行電信 MID 門號驗證
-
-### Google 訊息
-- RCS 無法使用
+- 狀態：🔴 閃退
+- 說明：無法執行電信 MID 門號驗證
 
 ### Google 錢包
-- 感應支付無法使用
-- 會員卡能用
-<img src="./GPay.png" style="width: 20%"/>
+- 狀態：🟡 部分
+- 無法感應支付
+<img src="./GPay.png" style="width: 30%"/>
