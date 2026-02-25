@@ -10,21 +10,21 @@
 | --- | --- | --- | --- | --- |
 | **Play 服務** | GrapheneOS | 🟡 部分 | 需要 |  |
 | **Play 商店** | GrapheneOS | 🟡 部分 | 需要 | 須手動點擊授權安裝 |
-| **街口支付** | Play Store | 🟡 部分 | 需要 | SIM 卡驗證失敗，改用交易密碼驗證 |
-| **一卡通** | Play Store | 🟡 部分 | 需要 |  |
+| **[街口支付](#街口支付)** | Play Store | 🟡 部分 | 需要 | SIM 卡驗證失敗，改用交易密碼驗證 |
+| **[一卡通](#一卡通-money)** | Play Store | 🟡 部分 | 需要 |  |
 | **Google 文件** | Play Store | 🟡 部分 | 需要 | |
 | **Google 訊息** | Play Store | 🟡 部分 | \- | RCS 無法使用 |
 | **[CUBE](#國泰世華-cube)** | Play Store | 🔴 閃退 | 需要 | 顯示設備遭破解，必須禁用「開發人員選項」 |
 | **[中國信託](#中國信託)** | Play Store | 🔴 閃退 | 需要 | 無解，顯示連線有風險 |
-| **台灣行動支付** | Play Store | 🔴 閃退 | \- | 無解，閃退、SIM 卡驗證失敗 |
+| **[台灣行動支付](#台灣行動支付)** | Play Store | 🔴 閃退 | \- | 無解，閃退、SIM 卡驗證失敗 |
 | **麥當勞** | Play Store | 🔴 閃退 | 需要 | |
-| **Google 錢包** | Play Store | 🔴 半殘 | 需要 | |
+| **[Google 錢包](#google-錢包)** | Play Store | 🔴 半殘 | 需要 | |
 | **行動郵局** | Play Store | 🟢 正常 | \- | |
 | **將來銀行** | Play Store | 🟢 正常 | \- | |
 | **icash Pay** | Play Store | 🟢 正常 | 需要 | |
 | **國泰證券** | Play Store | 🟢 正常 | 通知 | |
 | **全支付** | Play Store | 🟢 正常 | 通知 | |
-| **悠遊付** | Play Store | 🟢 正常 | 進階功能 | NFC「嗶乘車」能用 |
+| **[悠遊付](#悠遊付)** | Play Store | 🟢 正常 | 進階功能 | NFC「嗶乘車」能用 |
 | **Line** | Play Store | 🟢 正常 | 通知 | |
 | **Line Pay** | Play Store | 🟢 正常 | \- | |
 | **Line Bank** | Play Store | 🟢 正常 | \- | |
