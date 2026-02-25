@@ -38,5 +38,12 @@
 | **Google 錢包** | Play Store | 🔴 半殘 | 需要 | 不支援感應支付，會員卡能用 |
 |||||<img src="./GPay.png" style="width: 20%"/>|
 
-## 一卡通 MONEY
-TODO
+### 一卡通 MONEY
+- 無 Play Integrity 會提示可能存在風險，不影響使用
+
+### 悠游付
+- 無 Play 服務時無法使用地圖，其餘功能正常
+
+### 國泰世華 (CUBE)
+- App 無法使用
+- 建議用[網頁版](https://www.cathaybk.com.tw/mybank)
