@@ -14,8 +14,8 @@
 | **一卡通** | Play Store | 🟡 部分 | 需要 |  |
 | **Google 文件** | Play Store | 🟡 部分 | 需要 | |
 | **Google 訊息** | Play Store | 🟡 部分 | \- | RCS 無法使用 |
-| **[CUBE](#%E5%9C%8B%E6%B3%B0%E4%B8%96%E8%8F%AF-cube)** | Play Store | 🔴 閃退 | 需要 | 顯示設備遭破解，必須禁用「開發人員選項」 |
-| **中國信託** | Play Store | 🔴 閃退 | 需要 | 無解，顯示連線有風險 |
+| **[CUBE](#國泰世華-cube)** | Play Store | 🔴 閃退 | 需要 | 顯示設備遭破解，必須禁用「開發人員選項」 |
+| **[中國信託](#中國信託)** | Play Store | 🔴 閃退 | 需要 | 無解，顯示連線有風險 |
 | **台灣行動支付** | Play Store | 🔴 閃退 | \- | 無解，閃退、SIM 卡驗證失敗 |
 | **麥當勞** | Play Store | 🔴 閃退 | 需要 | |
 | **Google 錢包** | Play Store | 🔴 半殘 | 需要 | |
