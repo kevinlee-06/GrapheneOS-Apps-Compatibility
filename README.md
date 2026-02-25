@@ -1,4 +1,4 @@
-# GrapheneOS App 相容性與微調紀錄
+# GrapheneOS App 相容性紀錄
 
 > **設備：** Pixel 9a (tegu) | **更新日期：** 2026-02-25
 
