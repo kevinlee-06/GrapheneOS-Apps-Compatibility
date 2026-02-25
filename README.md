@@ -36,7 +36,6 @@
 | **Google 文件** | Play Store | 🟡 部分 | 需要 |  |
 | **Google 訊息** | Play Store | 🟡 部分 |  | RCS 無法使用 |
 | **Google 錢包** | Play Store | 🔴 半殘 | 需要 | 不支援感應支付，會員卡能用 |
-|||||<img src="./GPay.png" style="width: 20%"/>|
 
 ### 一卡通 MONEY
 - 無 Play Integrity 會提示可能存在風險，不影響使用
@@ -54,3 +53,8 @@
 ### 台灣行動支付
 - App 無法使用
 - 無法執行電信 MID 門號驗證
+
+### Google 錢包
+- 感應支付無法使用
+- 會員卡能用
+<img src="./GPay.png" style="width: 20%"/>
