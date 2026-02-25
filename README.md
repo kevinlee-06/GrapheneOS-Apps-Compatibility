@@ -43,6 +43,7 @@
 - V-Shield：`[ERROR] code:-207, msg:Device is risky [Rooted/Hooked/Simulator/Emulator/Debugger]`
 - 調用系統級 GMS 與 Integrity API 異常
 > 嘗試重複開關 CUBE App 與開發人員選項，偶爾有機會跳過 `[AX05]` 警告
+- 可使用 [CUBE 網銀](https://www.cathaybk.com.tw/mybank)(只能約轉)與[友善個人網路銀行](https://accessibility.cathaybk.com.tw/mybank/Classics)(非約轉 SMS 驗證)
 
 ### 中國信託
 - 狀態：🔴 閃退
