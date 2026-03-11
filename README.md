@@ -1,10 +1,12 @@
 # GrapheneOS App 相容性紀錄
 ## App 清單
-> **設備：** Pixel 9a (tegu) | **更新日期：** 2026-03-11
+### 更新日期：2026/03/11
+> **設備：** Pixel 9a (tegu)
 - ✅ 中國信託
 - ✅ 國泰世華
 
-> **設備：** Pixel 9a (tegu) | **更新日期：** 2026-02-26
+### 更新日期：2026/02/26
+> **設備：** Pixel 9a (tegu)
 - ✅ 街口支付：SIM 卡驗證失敗，改用交易密碼驗證
 - ✅ 一卡通
 - ✅ 行動郵局
@@ -27,20 +29,21 @@
 - ~~🈲 國泰世華：不支援，顯示設備遭破解~~
 - ~~🈲 中國信託：不支援，顯示連線有風險~~
 
-## 詳細紀錄 2026/03/11
-### 國泰世華 (CUBE)
+## 詳細紀錄 
+### 更新日期：2026/03/11
+#### 國泰世華 (CUBE)
 - 狀態：🟢 運作正常
 - SELinux 權限遭拒
 - 可成功成功建立加密連線，log 中並未出現風險評估失敗的紀錄
 
-### 中國信託
+#### 中國信託
 - 狀態：🟢 運作正常
 - SELinux 權限遭拒
 - 調用系統級 GMS 與 Integrity API 異常
 - 可成功成功建立加密連線，有大量錯誤但放行
 
-## 詳細紀錄 2026/02/26
-### 國泰世華 (CUBE) (已過期)
+### 更新日期：2026/02/26
+#### 國泰世華 (CUBE) (已過期)
 - 狀態：🔴 閃退
 - 錯誤代碼：`[AX05]`
 - V-Shield：`[ERROR] code:-207, msg:Device is risky [Rooted/Hooked/Simulator/Emulator/Debugger]`
@@ -48,7 +51,7 @@
 > 嘗試重複開關 CUBE App 與開發人員選項，偶爾有機會跳過 `[AX05]` 警告
 - 可使用 [CUBE 網銀](https://www.cathaybk.com.tw/mybank)(只能約轉)與[友善個人網路銀行](https://accessibility.cathaybk.com.tw/mybank/Classics)(非約轉 SMS 驗證)
 
-### 中國信託 (已過期)
+#### 中國信託 (已過期)
 - 狀態：🔴 閃退
 - SELinux 權限遭拒
 - 調用系統級 GMS 與 Integrity API 異常
