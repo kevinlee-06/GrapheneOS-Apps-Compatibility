@@ -5,27 +5,27 @@
 - ✅ 國泰世華
 
 > **設備：** Pixel 9a (tegu) | **更新日期：** 2026-02-26
-- 街口支付：SIM 卡驗證失敗，改用交易密碼驗證
-- 一卡通
-- 行動郵局
-- 悠遊付
-- icash Pay
-- 全支付
-- Line
-- Line Pay
-- Line Bank
-- 將來銀行
-- 國泰證券
-- 全支付
-- Netflix
-- Spotify
-- Galaxy Wearable
-- Google 訊息：[RCS 設定](https://grapheneos.org/usage#rcs)
+- ✅ 街口支付：SIM 卡驗證失敗，改用交易密碼驗證
+- ✅ 一卡通
+- ✅ 行動郵局
+- ✅ 悠遊付
+- ✅ icash Pay
+- ✅ 全支付
+- ✅ Line
+- ✅ Line Pay
+- ✅ Line Bank
+- ✅ 將來銀行
+- ✅ 國泰證券
+- ✅ 全支付
+- ✅ Netflix
+- ✅ Spotify
+- ✅ Galaxy Wearable
+- ✅ Google 訊息：[RCS 設定](https://grapheneos.org/usage#rcs)
 - 🈲 台灣行動支付：不支援，SIM 卡驗證失敗
 - 🈲 麥當勞：不支援，Integrity 沒過
 - 🈲 Google 錢包：不支援
-- 🈲 國泰世華：不支援，顯示設備遭破解
-- 🈲 中國信託：不支援，顯示連線有風險
+- 🈲🕒 國泰世華：不支援，顯示設備遭破解
+- 🈲🕒 中國信託：不支援，顯示連線有風險
 
 ## 詳細紀錄 2026/03/11
 ### 國泰世華 (CUBE)
