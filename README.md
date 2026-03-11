@@ -1,6 +1,7 @@
 # GrapheneOS App 相容性紀錄
 
-（如果有需要幫忙測的 App，可以開 Issue 並附上 Play Store 連結）
+- 這份清單是我手機的測試結果，不同環境可能會有些差異
+- 如果有需要我幫忙測的 App，可以開 Issue 並附上 Play Store 連結
 
 ## App 清單
 ### 更新日期：2026/03/11
