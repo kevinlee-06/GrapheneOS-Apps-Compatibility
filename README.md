@@ -41,8 +41,8 @@
 - 🈲 台灣行動支付：不支援，SIM 卡驗證失敗
 - 🈲 麥當勞：不支援，Integrity 沒過
 - 🈲 Google 錢包：不支援
-- ~~🈲 國泰世華：不支援，顯示設備遭破解~~
-- ~~🈲 中國信託：不支援，顯示連線有風險~~
+- ~~國泰世華：不支援，顯示設備遭破解~~
+- ~~中國信託：不支援，顯示連線有風險~~
 
 ## 詳細紀錄 
 ### 更新日期：2026/03/11
@@ -59,7 +59,7 @@
 
 ### 更新日期：2026/02/26
 #### 國泰世華 (CUBE) (已過期)
-- 狀態：🔴 閃退
+- 狀態：閃退
 - 錯誤代碼：`[AX05]`
 - V-Shield：`[ERROR] code:-207, msg:Device is risky [Rooted/Hooked/Simulator/Emulator/Debugger]`
 - 調用系統級 GMS 與 Integrity API 異常
@@ -67,7 +67,7 @@
 - 可使用 [CUBE 網銀](https://www.cathaybk.com.tw/mybank)(只能約轉)與[友善個人網路銀行](https://accessibility.cathaybk.com.tw/mybank/Classics)(非約轉 SMS 驗證)
 
 #### 中國信託 (已過期)
-- 狀態：🔴 閃退
+- 狀態：閃退
 - SELinux 權限遭拒
 - 調用系統級 GMS 與 Integrity API 異常
 - idgate SDK 報錯
