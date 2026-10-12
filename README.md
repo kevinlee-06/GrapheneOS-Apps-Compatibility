@@ -1,3 +1,6 @@
+# 請見 https://github.com/kevinlee-06/G-AOSP-DB-TW
+
+以下資料不再維護
 # GrapheneOS App 相容性紀錄
 
 - 這份清單是我手機的測試結果，不同環境可能會有些差異
